@@ -1,0 +1,89 @@
+html{
+  background-color: #89A9C8;
+
+}
+
+body{
+  background-color: #052664;
+  color: #EFE4D7;
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+  width: auto;
+  height: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+h1{
+  color: #E2BE90;
+}
+h2{
+  color: #E2BE90 !important;
+}
+h3{
+  color: #E2BE90 !important;
+}
+hr{
+  color: #89A9C8;
+  border-style: none;
+  border-top-style: dashed;
+  border-width: 5px;
+
+}
+
+a {
+color:  #EFE4D7;
+padding: 10px;
+}
+
+img {
+width: 60%;
+height: auto;
+border-radius: 10px;
+}
+
+table.center {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+table,
+   th,
+   td
+   tr td:first-child{
+     text-align: left;
+   }
+   tr td:last-child {
+     text-align: right;
+   }
+
+   tr:nth-child(even) {
+            color:  #EFE4D7;
+        }
+   tr:nth-child(odd) {
+            color:  #DDE4E9;
+        }
+
+        div.container {
+          text-align: center;
+
+        }
+
+        ul.myUL {
+          display: inline-block;
+          text-align: left;
+          color: #DDE4E9;
+        }
+
+
+        input[type="text"], textarea {
+        background-color : #90AFC9;
+        border-radius: 5px;
+        font-family: 'Source Code Pro', monospace;
+      }
+        input[type="submit"], textarea {
+      background-color : #90AFC9;
+      border-radius: 5px;
+      font-family: 'Source Code Pro', monospace;
+      }
